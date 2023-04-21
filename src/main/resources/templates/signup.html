@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <div><a th:href="@{/}">home</a></div>
+  <form th:action="@{#}" th:method="post">
+    <input type="text" placeholder="name" name="name" />
+    <input type="text" placeholder="age" name="age" />
+    <input type="submit">
+  </form>
+</body>
+</html>

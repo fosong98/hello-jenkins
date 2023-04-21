@@ -1,0 +1,6 @@
+logging:
+  level:
+    com.example.hellojenkins: debug
+
+server:
+  port: 18888
